@@ -15,7 +15,7 @@ body{
 #calc{
     width: 400px;
     padding: .5em;
-    background-color: #c4c4c4;
+    background-color: #000;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ body{
 }    
 
 #current-operation{
-    color: #777;
+    color: #ffffff;
     font-size: 3em;
     font-weight: 700;
 }
@@ -55,9 +55,29 @@ body{
 }
 #buttons-container button{
     border: 1px solid transparent;
-    border-radius: 0 ;
-    height: 4em;
+    border-radius: 100px ;
+    height: 5em;
     font-size: 1.2em;
-    background-color: #dbdbdb;
     cursor: pointer;
+}
+.number{
+    background-color: #666;
+    color: #ffffff;
+}
+
+#buttons-container #button-zero{
+    grid-column: span 2;
+    background-color: #666;
+    color: #ffffff;
+
+}
+
+#laranja{
+    background-color: orange;
+    color: #ffffff;
+}
+
+#outros{
+    background-color: #999;
+    font-size: 1.5em;
 }
